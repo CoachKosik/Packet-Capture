@@ -156,13 +156,11 @@ In this task, use tcpdump to filter data from the packet capture file you saved 
   * Use the sudo tcpdump -D command.
 
 ### Summary
+This lab demonstrated the process of capturing and analyzing network traffic using the `tcpdump` command-line tool. Key skills acquired include:
 
-This lab provided hands-on experience in using Wireshark to analyze network traffic. Key skills acquired include:
+* Identifying network interfaces available for packet capture.
+* Filtering network traffic based on specific criteria.
+* Capturing network traffic and saving it to a file.
+* Analyzing captured packet data to understand network protocols and data flow.
 
-* Opening and examining packet capture files.
-* Filtering network traffic based on various criteria, such as IP addresses, ports, and protocol types.
-* Inspecting packet details, including source and destination addresses, protocols, and payload data.
-* Analyzing DNS traffic to identify domain name queries and IP address resolution.
-* Searching for specific text patterns within packet payloads.
-
-By mastering these skills, users can effectively investigate network security incidents, troubleshoot network issues, and gain valuable insights into network behavior.
+By mastering these techniques, users can gain valuable insights into network behavior and troubleshoot potential issues.
